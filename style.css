@@ -1049,6 +1049,20 @@ footer h1 {
   .card video {
     width: 100%;
   }
+  .card a {
+      color: white;
+      padding: 10px 15px;
+      border-radius: 10px;
+      border: 1px solid #727fdeb4;
+      background-color: #2200493d;
+      box-shadow: 0 0 15px #727fde86;
+      cursor: pointer;
+      transition: 0.3s;
+      position: absolute;
+      bottom: 5%;
+      left: 5%;
+      text-decoration: none;
+  }
   #my-projects {
     margin-bottom: 600px;
   }
