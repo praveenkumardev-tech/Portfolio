@@ -438,7 +438,7 @@ header ul a {
   margin-top: 0;
 }
 
-.project-info button {
+.project-info a {
   color: white;
   padding: 10px 15px;
   border-radius: 10px;
@@ -446,9 +446,10 @@ header ul a {
   background-color: #2200493d;
   box-shadow: 0 0 15px #727fde86;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.project-info button:hover {
+.project-info a:hover {
   box-shadow: 0 0 15px #727fde86;
   opacity: 0.7;
 }
@@ -497,7 +498,7 @@ header ul a {
     gap: 10%;
     align-items: center;
     width: 80%;
-    margin-top: 50px;
+    margin-top: -100px;
 }
 
 .skills-box {
@@ -1069,9 +1070,10 @@ footer h1 {
   .project-info p {
     max-width: 300px;
   }
-  .project-info p button {
+  .project-info a {
     font-size: 10px;
     margin-left: 20px;
+    margin-top: -60px;
   }
   .skills-box h1 {
     font-size: 40px;
