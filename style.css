@@ -318,7 +318,7 @@ header ul a {
   mix-blend-mode: lighten;
 }
 
-.card button {
+.card a {
   color: white;
   padding: 10px 15px;
   border-radius: 10px;
@@ -330,9 +330,10 @@ header ul a {
   position: absolute;
   bottom: 5%;
   left: 5%;
+  text-decoration: none;
 }
 
-.card button:hover {
+.card a:hover {
   box-shadow: 0 0 15px #727fde86;
   opacity: 0.7;
 }
@@ -610,8 +611,7 @@ header ul a {
   align-items: center;
 }
 
-.contactsection-title {
-}
+
 
 .social-box {
   display: flex;
@@ -1102,7 +1102,7 @@ footer h1 {
   }
   #contact-section {
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: -60px;
     margin-bottom: 50px;
   }
   #contact-section .section-title {
